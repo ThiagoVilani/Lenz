@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-mobile{
+    background-color: #ffffff !important;
+}
+
+.navbar-mobile img{
+    width: 30%;
+}
+
+.main-mobile .portada{
+    height: 20vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+}
+
+.main-mobile .portada img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.informacion-mobile{
+    margin-top: 5vh;
+}
+.informacion-mobile h1{
+    font-family: 'Times New Roman', Times, serif; 
+}
