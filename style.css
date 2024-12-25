@@ -100,6 +100,35 @@ body{
 }
 
 
+.div-visita-ig{
+    border-top: 2px solid black;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-visita-ig p{
+    color: #12145b;
+    font-weight: 600;
+    font-size: large;
+}
+
+.div-ig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-visita-ig label{
+    font-weight: 500;
+}
+
+.div-visita-ig img{
+    width: 10%;
+}
 
 
 
