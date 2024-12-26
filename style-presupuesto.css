@@ -1,0 +1,133 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-mobile{
+    background-color: #ffffff !important;
+}
+
+.navbar-mobile img{
+    width: 30%;
+}
+
+
+.div-carousel{
+    width: 100vw;
+}
+
+#carouselExampleSlidesOnly{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item{
+    width: 100vw;
+}
+
+.div-contenido-carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;    
+}
+
+.div-imagen-carousel{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.div-imagen-carousel img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.form-solicitar-presupuesto{
+    margin-top: 10vh;
+    margin-bottom: 10vh;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lbl-input{
+    display:flex;
+    flex-direction: column;
+    margin: 2vh;
+    width: 80%;
+}
+
+.lbl-input label{
+    font-weight: 600;
+}
+
+.lbl-input input{
+    border-radius: 15px;
+    border-style: hidden;
+    background-color: #acaed9;
+    height: 5vh;
+}
+
+.lbl-input textarea{
+    border-radius: 15px;
+    border-style: hidden;
+    background-color: #acaed9;
+    min-height: 15vh;
+}
+
+.form-solicitar-presupuesto button{
+    border-radius: 15px;
+    border-style: hidden;
+    background-color: #0b1844;
+    height: 6vh;
+    width: 60%;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    max-height: fit-content;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer-links li {
+    margin: 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }

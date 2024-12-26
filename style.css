@@ -35,6 +35,12 @@ body{
         justify-content: center;
         align-items: center;
     }
+    .navbar{
+        display: none;
+    }
+    .main-mobile{
+        display: none;
+    }
 }
 
 .navbar-mobile{
@@ -132,6 +138,7 @@ body{
 }
 
 
+/* Visita Instagram */
 .div-visita-ig{
     border-top: 2px solid black;
     margin-top: 5vh;
@@ -150,16 +157,22 @@ body{
 
 .div-ig{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
 }
 
 .div-visita-ig label{
     font-weight: 500;
+    font-size: large;
+}
+
+.div-ig a{
+    width: 5%;
+    margin-left: 2vw;
 }
 
 .div-visita-ig img{
-    width: 10%;
+    width: 100%;
 }
 
 
