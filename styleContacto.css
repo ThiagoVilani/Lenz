@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-mobile{
+    background-color: #ffffff !important;
+}
+
+.navbar-mobile img{
+    width: 30%;
+}
+
+
+.div-carousel{
+    width: 100vw;
+}
+
+#carouselExampleSlidesOnly{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item{
+    width: 100vw;
+}
+
+.div-contenido-carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;    
+}
+
+.div-imagen-carousel{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.div-imagen-carousel img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.div-mapa{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#zona-operacion{
+    height: 60vh;
+    width:90vw;
+}
+
+.grid-contacto{
+    margin:5vw;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 90vw;
+}
+
+.grid-contacto li{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    border-top:1px solid black;
+    margin-bottom: 1vh;
+    height: 10vh;
+}
+
+.valor-contacto{
+    justify-content: end;
+}
+.campo-contacto{
+    justify-content: start;
+}
+
+.icono-contacto{
+    width: 6vw;
+    margin-right: 1vw;
+    overflow: hidden;
+}
+
+.icono-contacto img{
+    width: 100%;
+    object-fit: contain;
+}
