@@ -47,8 +47,11 @@ body{
     background-color: #ffffff !important;
 }
 
+.navbar-mobile a{
+    width: 30vw;
+}
 .navbar-mobile img{
-    width: 30%;
+    width: 100%;
 }
 
 
@@ -104,24 +107,27 @@ body{
     height:fit-content;
 }
 
-.div-dedicamos{
-    width: 100%;
-    overflow: hidden;
-    padding: 1vh;
+
+.div-que-hacemos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
-.div-dedicamos img{
-    border-radius: 20px;
+
+.div-logo{
     width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+.div-logo img{
+    width: 10%;
     object-fit: contain;
 }
 
-
-.div-que-hacemos{
-    margin: 4vw;
-    margin-top: 6vh;
-    margin-bottom: 6vh;
-    text-align: center;
-}
 .div-que-hacemos h3{
     color: #12145b;
 }
@@ -140,8 +146,8 @@ body{
 
 /* Visita Instagram */
 .div-visita-ig{
-    border-top: 2px solid black;
-    margin-top: 5vh;
+    border-top: 12px solid black;
+    /* margin-top: 5vh; */
     margin-bottom: 2vh;
     display: flex;
     flex-direction: column;
