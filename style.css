@@ -125,12 +125,35 @@ body{
 }
 .div-logo img{
     width: 10vw;
-    /* height: 10vw;*/
     object-fit: contain;
 }
 
 .div-que-hacemos h3{
     color: #12145b;
+}
+.btn-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    min-height: fit-content;
+    width: 30vw;
+    height: 4vh;
+    background-color: #0b0d41;
+}
+.btn-whatsapp p{
+    font-size: x-large;
+    color: #ffffff;
+    margin-right: 2vw;
+}
+.div-logo-whatsapp{
+    overflow: hidden;
+    width: 15%;
+}
+.div-logo-whatsapp img{
+    object-fit: contain;
+    width: 100%;
+
 }
 
 
