@@ -51,7 +51,7 @@ body{
     object-fit: contain;
 }
 
-.form-solicitar-presupuesto{
+#form-solicitar-presupuesto{
     margin-top: 10vh;
     margin-bottom: 10vh;    
     display: flex;
@@ -75,7 +75,7 @@ body{
     border-radius: 15px;
     border-style: hidden;
     background-color: #acaed9;
-    height: 5vh;
+    height: 5vh; 
 }
 
 .lbl-input textarea{
@@ -85,7 +85,7 @@ body{
     min-height: 15vh;
 }
 
-.form-solicitar-presupuesto button{
+#form-solicitar-presupuesto button{
     border-radius: 15px;
     border-style: hidden;
     background-color: #0b1844;
