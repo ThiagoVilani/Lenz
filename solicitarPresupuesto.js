@@ -4,9 +4,28 @@ document.getElementById("form-solicitar-presupuesto").addEventListener("click",(
 document.getElementById("enviar-form").addEventListener("click",async()=>{
     const ok = await Validar();
     if(ok){
+        const nombre = document.getElementById("input-nombre").value;
+        const numeroTelefono = document.getElementById("input-telefono").value;
+        const ubicacion = document.getElementById("input-ubicacion").value;
+        const descripcion = document.getElementById("input-descripcion").value;
+        await EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion)
         CartelPresupuesto();
     }
 })
+
+async function EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion){
+    const response = await fetch('https://lenzback.onrender.com/enviar-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+            nombre, 
+            numeroTelefono,
+            ubicacion,         
+            descripcion
+        }),
+    });
+}
+
 
 function CartelPresupuesto(){
     Swal.fire({

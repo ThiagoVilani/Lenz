@@ -25,16 +25,7 @@ function initMap() {
       { lat: -34.721508, lng: -58.189480},
       { lat: -34.529142, lng: -58.452134 },
     ];
-    // const coordenadasZona = [
-    //   { lat: -34.413060, lng: -58.584014 },
-    //   { lat: -34.694140, lng: -58.690723 },
-    //   { lat: -34.866617, lng: -58.683282 },
-    //   { lat: -34.955949, lng: -58.617701 },
-    //   { lat: -34.850610, lng: -58.426010 },
-    //   { lat: -34.742766, lng: -58.198312 },
-    //   { lat: -34.446714, lng: -58.489600 },
-    // ];
-
+    
     // Crear el polígono
     const zona = new google.maps.Polygon({
       paths: coordenadasZona,
