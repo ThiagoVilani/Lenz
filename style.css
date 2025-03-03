@@ -41,7 +41,7 @@ body{
 }
 
 @media (min-width:750px){
-    /* #mensaje-escritorio{
+    #mensaje-escritorio{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -52,8 +52,8 @@ body{
     }
     .main-mobile{
         display: none;
-    } */
-    
+    }
+/*     
     .navbar{
         border: 2px solid red;
         height:15vh;
@@ -75,17 +75,16 @@ body{
     #navbarNav .navbar-nav{
         border:2px solid salmon;
         
-    }
-    /* #navbarNav{
+    } 
+     #navbarNav{
         display: flex;
         justify-content: start;
         align-items: center;
-    } */
+    } 
     .nav-item{
-        /* border: 2px solid red; */
         width: 15vw;
         border: 2px solid blue;
-    } 
+    } */
 }
 
 .div-carousel{
