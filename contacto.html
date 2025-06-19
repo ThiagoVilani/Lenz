@@ -10,125 +10,59 @@
     <link rel="stylesheet" href="styleContacto.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-mobile">
-        <div class="container-fluid">
-          <a href="index.html">
-            <img src="images/LenzLight.png" alt="lenz-logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-list" style="color:#000000"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/solicitarPresupuesto.html">Solicitar presupuesto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-mobile">
+    <div class="container-fluid">
+      <a href="#" class="lenz-logo">
+        <img src="images/LenzLight.png" alt="lenz-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list" style="color:#000000"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/solicitarPresupuesto.html">Solicitar presupuesto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
     <main>
-        <div class="portada">
-            <div class="div-carousel">
-              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="div-contenido-carousel">
-                      <div class="div-imagen-carousel">
-                        <img src="images/portada1v3.png" alt="electrician">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="div-contenido-carousel">
-                    <div class="div-imagen-carousel">
-                        <img src="images/portada2.png" alt="electrician">
-                      </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="div-contenido-carousel">
-                      <div class="div-imagen-carousel">
-                        <img src="images/portada3v2.png" alt="electrician">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="div-accesos-directos">
+        <h2>Contactanos</h2> 
+        <div class="div-contact-icons">
+          <div class="contact-icon">
+            <img src="images/WhatsApp.svg.png">
+            <p>WhatsApp</p>
           </div>
-        <h2>Contactanos</h2>
-        <div class="grid-contacto">
-            <li>
-              <div class="campo-contacto">
-                <div class="icono-contacto">
-                  <img src="images/email-icon.png" alt="email">
-                </div>
-                <p>Email</p>
-              </div>
-              <p class="valor-contacto email">LenzElectricidadInmuebles@gmail.com</p>
-            </li>
-            <li>
-              <div class="campo-contacto">
-                <div class="icono-contacto">
-                  <img src="images/WhatsApp.png" alt="email">
-                </div>
-                <p>WhatsApp</p>
-              </div>
-              <p class="valor-contacto">1124055982</p>
-            </li>
-            <li>
-              <div class="campo-contacto">
-                <div class="icono-contacto">
-                  <img src="images/whatsappROJO.png" alt="email">
-                </div>
-                <p>Urgencia WhatsApp</p>
-              </div>
-              <p class="valor-contacto">1132782783</p>
-              </li>
-            <li>
-              <div class="campo-contacto">
-                <div class="icono-contacto">
-                  <img src="images/whatsappROJO.png" alt="email">
-                </div>
-                <p>Urgencia WhatsApp</p>
-              </div>
-              <p class="valor-contacto">1132738116</p>
-              </li>
-            <li>
-              <div class="campo-contacto">
-                <div class="icono-contacto">
-                  <img src="images/whatsappROJO.png" alt="email">
-                </div>
-                <p>Urgencia WhatsApp</p>
-              </div>
-              <p class="valor-contacto">1124055982</p>
-              </li>
-            <li>
-              <div>
-                <div class="campo-contacto">
-                  <div class="icono-contacto">
-                    <img src="images/ig-logo2.png" alt="instagram">
-                  </div>
-                  <p>Instagram</p>
-                </div>
-                </div>
-              <p class="valor-contacto">Lenz Electricidad</p>
-            </li>
+          <div class="contact-icon">
+            <img src="images/ig-logo2.png">
+            <p>Instagram</p>
+          </div>
+          <div class="contact-icon">
+            <img src="images/gmail-logo.webp">
+            <p>Email</p>
+          </div>
         </div>
-        <div class="div-mapa">
+      </div>
+      <div class="div-mapa">
           <h3>Nuestra zona de cobertura</h3>
           <div id="zona-operacion"></div>
-        </div>
+      </div>
     </main>
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2024 LenzElectricidad. Todos los derechos reservados.</p>
+      </div>
+    </footer>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-KVv6Kw_CgVvPKHFsOI1WeTlU2oESQ-0"></script>
-    <script type="module" src="/contacto.js"></script>
+    <script type="module" src="./contacto.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

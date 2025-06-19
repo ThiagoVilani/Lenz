@@ -6,29 +6,6 @@ body{
     overflow-x: hidden;
 }
 
-#mensaje-escritorio{
-    display: none;
-    width: 100vw;
-    height: 100vh;
-    background-color:#0b0d41;
-}
-#mensaje-escritorio p{
-    color: #ffffff;
-    font-size: 5vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-#mensaje-escritorio .logo{
-    width: 30vw;
-    height: fit-content;
-    overflow: hidden;
-}
-#mensaje-escritorio .logo img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
 
 .navbar-mobile{
     background-color: #ffffff !important;
@@ -101,29 +78,6 @@ body{
         color: #030351;
     }
         /* FIN NAV  */
-    
-
-    /* .main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .div-que-hacemos{
-        height: 60vh;
-        width: 60vw;
-    }
-    .div-que-hacemos h3{
-        font-size: xx-large;
-    }
-    .div-que-hacemos p{
-        font-size: x-large;
-        font-weight: 400;
-    }
-    .btn-whatsapp p{
-       font-size: 4px; 
-    } */
-
 }
 
 .div-carousel{
