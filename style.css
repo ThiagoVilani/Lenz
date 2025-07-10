@@ -6,7 +6,6 @@ body{
     overflow-x: hidden;
 }
 
-
 .navbar-mobile{
     background-color: #ffffff !important;
 }
@@ -16,6 +15,11 @@ body{
 }
 .navbar-mobile img{
     width: 100%;
+}
+
+
+h1{
+    margin-top: 4vh;
 }
 
 @media (min-width:750px){
