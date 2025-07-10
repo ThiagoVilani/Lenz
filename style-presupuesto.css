@@ -5,6 +5,10 @@ body{
     flex-direction: column;
 }
 
+main{
+    border-top: solid 2px #00000024;
+}
+
 .navbar-mobile{
     background-color: #ffffff !important;
 }
@@ -128,10 +132,12 @@ body{
     flex-direction: column;
     margin: 2vh;
     width: 80%;
+    max-width: 800px;
 }
 
 .lbl-input label{
     font-weight: 600;
+    font-size: large;
 }
 
 .lbl-input input{
@@ -149,6 +155,7 @@ body{
 }
 
 #form-solicitar-presupuesto button{
+    margin-top: 2vh;
     border-radius: 15px;
     border-style: hidden;
     background-color: #0b1844;

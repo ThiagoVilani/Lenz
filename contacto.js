@@ -1,6 +1,11 @@
+import { InsertarNavGrande } from "./herramientas.js";
+
 // Cargar el mapa cuando se cargue la página
 window.onload = initMap;
 
+document.addEventListener("DOMContentLoaded", () => {
+  InsertarNavGrande(document,window);
+});
 
 function initMap() {
     const centro = { lat: -34.6037, lng: -58.3816 }; // Coordenadas del centro del mapa

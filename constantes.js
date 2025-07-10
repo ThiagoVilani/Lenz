@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
-</head>
-<body>
-    <div class="container-fluid">
+export const nav = `<div class="container-fluid">
         <a href="#" class="lenz-logo">
           <img src="images/LenzLight.png" alt="lenz-logo">
         </a>
@@ -24,7 +15,4 @@
               </li>
             </ul>
           </div>
-        </div>
-    
-</body>
-</html>
+        </div>`;
