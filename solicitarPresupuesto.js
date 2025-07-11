@@ -21,6 +21,8 @@ document.getElementById("enviar-form").addEventListener("click",async()=>{
     }
 })
 
+
+
 async function EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion){
     const response = await fetch('https://lenzback.onrender.com/enviar-email', {
         method: 'POST',
