@@ -6,10 +6,6 @@ body{
     overflow-x: hidden;
 }
 
-main{
-    background-color: #0011ff2f;
-    border-top: solid 2px #00000024;
-}
 
 .navbar-mobile{
     background-color: #ffffff !important;
@@ -157,11 +153,7 @@ main{
         color: black;
     }
 
-    .div-mapa{
-        border: solid 2px blue;
-    }
     .div-mapa h3{
-        border: 2px solid red;
         margin-top: 14vh;
     }
 }
@@ -207,7 +199,6 @@ main{
     width: 100%;
     padding-top: 1vh;
     margin-bottom: 2vh;
-    border-top:1px solid black;
 }
 
 .campo-contacto{    
