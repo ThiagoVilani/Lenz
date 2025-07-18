@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
   InsertarNavGrande(document,window);
 });
 
-
 document.getElementById("form-solicitar-presupuesto").addEventListener("click",()=>{
     event.preventDefault();
 })
+
 document.getElementById("enviar-form").addEventListener("click",async()=>{
     const ok = await Validar();
     if(ok){
@@ -16,12 +16,15 @@ document.getElementById("enviar-form").addEventListener("click",async()=>{
         const numeroTelefono = document.getElementById("input-telefono").value;
         const ubicacion = document.getElementById("input-ubicacion").value;
         const descripcion = document.getElementById("input-descripcion").value;
-        await EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion)
-        CartelPresupuesto();
+        CartelCargando(); //Disparo cartel de carga
+        let res = await EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion)
+        if (res.status == 200){
+            CartelPresupuesto();  
+        }
     }
 })
 
-
+//<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>\\
 
 async function EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion){
     const response = await fetch('https://lenzback.onrender.com/enviar-email', {
@@ -33,6 +36,20 @@ async function EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion){
             ubicacion,         
             descripcion
         }),
+    });
+    return response;
+}
+
+
+function CartelCargando(){
+    Swal.fire({
+        title: 'Enviando...',
+        text: 'Por favor esperá mientras se envía el mail.',
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+        didOpen: () => {
+            Swal.showLoading();
+        }
     });
 }
 
