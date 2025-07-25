@@ -115,8 +115,9 @@ body{
         color: #000;
     }
     .div-contact-icons{
+        background-color: rgba(255, 255, 0, 0.095);
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         margin-left: 20vw;
         margin-right: 20vw;
@@ -124,6 +125,8 @@ body{
         height: 40vh;  
     }
     .contact-icon{
+        margin-left: .2%;
+        margin-right: .2%;
         width: 30%;
         height: 90%;
     }   
