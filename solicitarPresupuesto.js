@@ -17,9 +17,17 @@ document.getElementById("enviar-form").addEventListener("click",async()=>{
         const ubicacion = document.getElementById("input-ubicacion").value;
         const descripcion = document.getElementById("input-descripcion").value;
         CartelCargando(); //Disparo cartel de carga
-        let res = await EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion)
+        let res = await EnviarEmail(nombre,numeroTelefono,ubicacion,descripcion);
+        if(res.status){
+            console.log(res.status);
+        }
+        
         if (res.status == 200){
-            CartelPresupuesto();  
+            CartelExitoso();  
+        }
+        if(res.status == 400){
+            let resJson = await res.json();
+            CartelErrorDatos(resJson.error);
         }
     }
 })
@@ -53,8 +61,15 @@ function CartelCargando(){
     });
 }
 
+function CartelErrorDatos(mensaje){
+    Swal.fire({
+        title:"Error",
+        text:mensaje,
+        icon:"error"
+    });
+}
 
-function CartelPresupuesto(){
+function CartelExitoso(){
     Swal.fire({
         title: '¡Presupuesto solicitado!',
         text: 'Nos pondremos en contacto enseguida',
