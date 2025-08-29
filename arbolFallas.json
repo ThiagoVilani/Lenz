@@ -1,0 +1,41 @@
+{
+    "pregunta":"¿Que problema tenes en la instalacion?",
+    "opciones":[
+        {
+            "texto":"Salta la termica",
+            "siguiente":{
+                "pregunta":"¿Cuando salta?",
+                "opciones":[
+                    {
+                        "texto":"Cuando conecto varios electrodomesticos",
+                        "siguiente":{
+                            "respuesta":"Parece que estas sobrecargando la instalacion electrica o la termomagnetica no es la adecuada"
+                        }
+                    },
+                    {
+                        "texto":"Cuando enciendo una lampara en especifico",
+                        "siguiente":{
+                            "respuesta":"Hay una falla en la tecla o la conexion de la lampara"
+                        }
+                    },
+                    {
+                        "texto":"Cuando uso un tomacorriente en especifico",
+                        "siguiente":{
+                            "respuesta":"Hay una falla en el tomacorriente"
+                        }
+                    },
+                    {
+                        "texto":"Cuando conecto un aparato especifico",
+                        "siguiente":{
+                            "respuesta":"El aparato tiene una falla, la instalacion del inmueble esta bien"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "texto":"Salta el diferencial",
+            "respuesta":"Ni idea bro"
+        }
+    ]
+}

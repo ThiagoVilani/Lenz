@@ -1,0 +1,204 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar-mobile{
+    position:fixed;
+    width: 100vw;
+    background-color: #ffffff !important;
+    height: 10vh;
+    z-index: 1000;
+}
+.navbar-mobile a{
+    width: 30vw;
+}
+.navbar-mobile img{
+    width: 100%;
+}
+.container-fluid{
+    background-color:#ffffff;
+}
+
+main{
+    margin-top: 10vh;
+}
+
+@media (min-width:750px){
+    main{
+        margin-top: 15vh;
+    }
+    .navbar-mobile{
+        position:fixed;
+        top: 0;
+        width: 100vw;
+        height: 15vh;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        height: 100%;
+        width: 100vw;
+    }
+    .lenz-logo{
+        height: 80%;
+        width: auto;
+        overflow: hidden;
+    }
+    .lenz-logo img{
+        height: 100%;
+        width: auto;
+        object-fit: cover;  
+    }
+    #navbarNav{
+        width: 40%;
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+    .nav-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin: 10px 10px;
+    }
+    .nav-item a{
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        font-size:x-large;
+        font-weight: 500;
+        color: #030351;
+    }
+    /* FIN DE NAV */
+
+    /* MAIN */
+    .titulo{
+        padding: 2vh;
+        text-align: center;
+        width: 100%;
+        background-color: #030351;
+    }
+    .titulo h1{
+        font-weight: 500;
+        color:#ffffff
+    }
+
+    .div-detector-falla{
+        padding-top: 2%;
+        padding-left:10vw;
+        padding-right:10vw;
+    }
+    #pregunta{
+        margin-left: 2vw;
+    }
+
+    #div-botones{
+        display: flex;
+        justify-content: space-around;
+        padding: 2vh;
+        flex-wrap: wrap;
+    }
+    .boton-opcion{
+        padding: 2%;
+        margin-top: 2vh;
+        min-width: fit-content;
+        width: 35vw;
+        min-height: fit-content;
+        background-color: #d3d6fd;
+        border-style: hidden;
+        border-left:6px solid #c4c8fb;
+        border-bottom:4px solid #c4c8fb;
+        border-top:1px solid #d2d5fc;
+        border-right:1px solid #d2d5fc;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        font-weight:500;
+        font-size:x-large;
+    }
+    .btn-volver{
+        background-color: #ffffff;
+        border: 2px solid #000;
+        border-radius: 10px;
+        font-weight:500;
+    }
+    .div-botones p{
+        font-weight: 400;
+    }
+}
+
+@media (max-width:749px){
+    /* MAIN */
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+    .titulo{
+        padding: 1vh;
+        margin-top: 2vh;
+        text-align: start;
+        width: 100%;
+        background-color: #030351;
+    }
+    .titulo h1{
+        font-weight:500;
+        color: #ffffff;
+    }
+
+    .div-detector-falla{
+        padding-top: 5%;
+    }
+
+    #pregunta{
+        margin-left: 2vw;
+        width: 100%;
+        text-align: center;
+    }
+    #pregunta p{
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #div-botones{
+        display: flex;
+        justify-content: space-around;
+        padding: 2vh;
+        flex-wrap: wrap;
+    }
+    .boton-opcion{
+        padding: 2%;
+        margin-top: 2vh;
+        width: 40vw;
+        min-height: 25vw;
+        background-color: #ffffff;
+        border-style: hidden;
+        border-left:4px solid #dddcdc;
+        border-bottom:4px solid #dddcdc;
+        border-top:1px solid #bebdbd;
+        border-right:1px solid #bebdbd;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        font-weight:500;
+        font-size: larger;
+    }
+    .btn-volver{
+        background-color: #ffffff;
+        border: 2px solid #000;
+        border-radius: 10px;
+        font-weight:500;
+    }
+    .div-botones p{
+        font-weight: 400;
+    }
+}
+
